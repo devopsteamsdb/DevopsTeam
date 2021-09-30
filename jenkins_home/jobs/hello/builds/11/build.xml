@@ -1,0 +1,34 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.ansicolor.action.ColorizedAction plugin="ansicolor@1.0.0">
+      <id>6a464b39-66ea-4965-b9cf-ace3be6301e6</id>
+      <colorMapName>gnome-terminal</colorMapName>
+      <command>START</command>
+    </hudson.plugins.ansicolor.action.ColorizedAction>
+  </actions>
+  <queueId>11</queueId>
+  <timestamp>1632980205735</timestamp>
+  <startTime>1632980205738</startTime>
+  <result>SUCCESS</result>
+  <duration>1603</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>ansible01</builtOn>
+  <workspace>/tmp/workspace/hello</workspace>
+  <hudsonVersion>2.314</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

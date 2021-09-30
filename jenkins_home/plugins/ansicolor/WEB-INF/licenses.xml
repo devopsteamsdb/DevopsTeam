@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='ansicolor' version='1.0.0'><l:dependency name='AnsiColor' groupId='org.jenkins-ci.plugins' artifactId='ansicolor' version='1.0.0' url='https://github.com/jenkinsci/ansicolor-plugin'><l:description>Adds ANSI coloring to the Console Output</l:description><l:license name='The MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
