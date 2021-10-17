@@ -1,3 +1,5 @@
+sshd:3.1.0
+jaxb:2.3.0.1
 trilead-api
 cloudbees-folder
 antisamy-markup-formatter
@@ -77,3 +79,10 @@ ansicolor
 powershell
 ansible
 blueocean
+parameterized-trigger
+active-directory
+uno-choice
+gitlab-plugin
+splunk-devops
+simple-theme-plugin
+authorize-project
