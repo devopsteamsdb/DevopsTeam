@@ -2,7 +2,7 @@ FROM python:3
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     apt-get install -y gnupg2 sshpass git openssh-client && \
-    apt-get install -y gcc libkrb5-dev cifs-utils && \
+    apt-get install -y gcc libkrb5-dev krb5-user cifs-utils && \
     apt-get install -y default-jre && \
     rm -rf /var/lib/apt/lists/* && \
     apt-get clean
