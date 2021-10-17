@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts-centos
+FROM jenkins/jenkins:2.316
 
 USER jenkins
 # Skip initial setup
