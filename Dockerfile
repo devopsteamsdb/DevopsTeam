@@ -18,7 +18,7 @@ RUN pip install ansible && \
 
 RUN mkdir /ansible && \
     mkdir -p /etc/ansible && \
-    echo 'localhost' > /etc/ansible/hosts
+    echo 'localhost ansible_connection=local' > /etc/ansible/hosts
 
 RUN ansible-galaxy collection install ansible.netcommon && \
     ansible-galaxy collection install ansible.utils && \
