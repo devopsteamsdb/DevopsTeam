@@ -6,7 +6,11 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     apt-get install -y default-jre && \
     rm -rf /var/lib/apt/lists/* && \
     apt-get clean
-	
+
+RUN wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb &&\
+    dpkg -i packages-microsoft-prod.deb && \
+	apt-get update && \
+	apt-get install -y powershell
 
 RUN python -m pip install --upgrade pip
    
