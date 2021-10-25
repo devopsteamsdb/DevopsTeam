@@ -4,7 +4,7 @@ USER jenkins
 # Skip initial setup
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 ENV JENKINS_USER admin
-ENV JENKINS_PASS A123a123
+ENV JENKINS_PASS A123@123
 
 COPY plugins.txt /usr/share/jenkins/ref/
 
