@@ -31,6 +31,7 @@ RUN ansible-galaxy collection install ansible.netcommon && \
     ansible-galaxy collection install community.general && \
     ansible-galaxy collection install community.vmware && \
     ansible-galaxy collection install community.windows && \
+    ansible-galaxy collection install check_point.mgmt && \
     ansible-galaxy collection install netapp.ontap
 
 RUN wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb && \
