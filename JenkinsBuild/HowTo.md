@@ -23,5 +23,5 @@ docker run \
 v1 - is the first version we use and it include auto setup for admin user
 if you want to use, remove the _V* from the end of the file. (the file name have to be Dockerfile)
 
-#### plugins_v1 ####
+#### plugins ####
 v1 - is the first version we use, the new file is with updates plugins for jenkins 2.320
