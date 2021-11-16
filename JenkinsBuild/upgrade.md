@@ -1,3 +1,4 @@
+### Upgrade jenkins docker image and plugins ###
 * build docker image
 * ceate jenkins_home_staging folder
 * sync jenkins_home to jenkins_home_staging
