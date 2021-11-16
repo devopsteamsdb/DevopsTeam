@@ -4,6 +4,7 @@
 * sync jenkins_home to jenkins_home_staging
 * import jenkins image ( akk servers )
 * create temp folder /abc
+* chown 1000 /abc
 * start new jenkins image on diffrent port then production and mout temp folder as /abc
 * see jenknis working
 * copy all plugins from new jenkins into temp folder
