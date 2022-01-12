@@ -1,0 +1,16 @@
+---
+- name: SSH Harding 
+  hosts: {{hosts-changeme}}
+  remote_user: root
+
+  tasks:
+- name: make sure only specific users allow to ssh
+  ansible.builtin.lineinfile:
+    path: "/etc/ssh/ssh_config"
+    state: present
+    regexp: 'AllowUsers root userX *@domain'
+
+- name: restart ssh service
+  service:
+    name: sshd
+    state: reloaded
