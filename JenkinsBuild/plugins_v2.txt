@@ -93,3 +93,6 @@ generic-webhook-trigger
 docker-build-step
 managed-scripts
 publish-over-cifs
+parameterized-scheduler
+schedule-build
+sidebar-link
