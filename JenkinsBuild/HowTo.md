@@ -25,3 +25,4 @@ if you want to use, remove the _V* from the end of the file. (the file name have
 
 #### plugins ####
 v1 - is the first version we use, the new file is with updates plugins for jenkins 2.320
+v2 - secinds plugin file for jenkins
