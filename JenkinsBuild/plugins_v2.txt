@@ -106,7 +106,6 @@ configurationslicing
 cron_column
 dashboard-view
 date-parameter
-display-console-output
 dropdown-viewstabbar-plugin
 export-params
 extended-choice-parameter
