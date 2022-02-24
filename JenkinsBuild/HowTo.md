@@ -27,3 +27,15 @@ if you want to use, remove the _V* from the end of the file. (the file name have
 * v2 - seconds plugins file for jenkins
 * v1 - is the first version we use, the new file is with updates plugins for jenkins 2.320
 
+### Docker Push ###
+
+##### Example #####
+docker images
+REPOSITORY                  TAG       IMAGE ID       CREATED         SIZE
+jenkins_sdb_24_02_2022_05   latest    a5cd3fe7128b   7 minutes ago   639MB
+jenkins/jenkins             latest    97d23cbbfa56   41 hours ago    463MB
+jenkins/jenkins             <none>    05fe72a4142c   3 months ago    442MB
+
+docker tag a5cd3fe7128b devopsteamsdb/devopsteamsdb:jenkinsadab_24_02_2022
+docker push devopsteamsdb/devopsteamsdb:jenkinsadab_24_02_2022
+ 
