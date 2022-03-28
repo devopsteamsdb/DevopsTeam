@@ -37,7 +37,7 @@ RUN wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod
     rm -rf /var/lib/apt/lists/* && \
     apt-get clean
 
-RUN pwsh -c install-module vmware.powercli -Force
+RUN pwsh -c install-module vmware.powercli,importexcel,pscribo,dbatools,sqlserverdsc,sharepointdsc,cisco.imc,cisco.ucs.core,jenkins,polaris,pswindowsupdate -AcceptLicense -Force
 
 WORKDIR /ansible
 
