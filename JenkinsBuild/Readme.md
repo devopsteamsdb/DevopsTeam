@@ -6,7 +6,7 @@ create folder on your computer and put this 3 files in the folder
 * default-user.groovy
 
 from the folder where we have all the 3 files we run this:
-docker build . -t itamartz/jenkins:centos --pull
+docker build . -t devopsteamsdb/devopsteamsdb:jenkinsadab_28_03_2022 --pull
 
 ### Run - Create container from the image we build ###
 docker run \
