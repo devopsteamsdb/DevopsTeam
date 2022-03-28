@@ -1,5 +1,5 @@
 # Buils stage
-FROM jenkins/jenkins:2.320 as build
+FROM jenkins/jenkins:latest as build
 
 USER jenkins
 
