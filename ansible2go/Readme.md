@@ -1,1 +1,1 @@
-docker build . -t ansible2go:28_03_2022 --pull
+docker build . -t devopsteamsdb/devopsteamsdb:ansible2go_28_03_2022 --pull
