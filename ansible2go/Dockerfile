@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
-    apt-get install -y wget curl jq git gnupg2 python3-pip sshpass openssh-client && \
+    apt-get install -y vim wget curl jq git gnupg2 python3-pip sshpass openssh-client && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install krb5-user krb5-user libkrb5-dev gcc python-dev cifs-utils && \
     rm -rf /var/lib/apt/lists/* && \
     apt-get clean
