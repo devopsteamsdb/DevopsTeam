@@ -14,14 +14,27 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    
     #- name: Build the Docker image
     #  run: docker build . --file ansible2go/Dockerfile --tag devopsteamsdb/devopsteamsdb:ansible2go_$(date +%s)
+    
+    - name: Build image
+      uses: docker/build-push-action@v2
+      with:
+        tags: devopsteamsdb/devopsteamsdb:ansible2go_$(date +%s)
+        file: ansible2go/Dockerfile
     
     - name: Login to dockerhub
       uses: docker/login-action@v1
       with:
-        #registry: ghcr.io
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
+        
+    - name: Push image
+      uses: docker/build-push-action@v2
+      with:
+        push: true
+        tags: devopsteamsdb/devopsteamsdb:ansible2go_$(date +%s)
+        file: ansible2go/Dockerfile
       
       
