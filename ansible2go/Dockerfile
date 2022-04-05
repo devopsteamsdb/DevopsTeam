@@ -8,7 +8,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
 
 RUN python3 -m pip install --upgrade pip cffi && \
     pip install ansible-core ansible && \
-    pip install mitogen ansible-lint jmespath && \
+    pip install mitogen ansible-lint jmespath netapp-lib && \
     pip install --upgrade pywinrm && \
     pip install pywinrm[kerberos] requests-kerberos pyvmomi && \
     rm -rf /root/.cache/pip
