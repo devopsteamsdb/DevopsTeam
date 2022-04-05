@@ -21,7 +21,7 @@ jobs:
     - name: Build image
       uses: docker/build-push-action@v2
       with:
-        tags: devopsteamsdb/devopsteamsdb:ansible2go_$(date +%s)
+        tags: devopsteamsdb/devopsteamsdb:ansible2go
         file: ansible2go/Dockerfile
     
     - name: Login to dockerhub
@@ -34,7 +34,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: devopsteamsdb/devopsteamsdb:ansible2go_$(date +%s)
+        tags: devopsteamsdb/devopsteamsdb:ansible2go
         file: ansible2go/Dockerfile
       
       
