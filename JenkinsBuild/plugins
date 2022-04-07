@@ -81,3 +81,4 @@ ansicolor
 blueocean-bitbucket-pipeline
 parameterized-trigger:2.42
 maven-plugin:3.15.1
+envinject
