@@ -61,7 +61,7 @@
     <dependency>
       <groupId>net.time4j</groupId>
       <artifactId>time4j-tzdata</artifactId>
-      <version>5.0-2021a</version>
+      <version>5.0-2021e</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
