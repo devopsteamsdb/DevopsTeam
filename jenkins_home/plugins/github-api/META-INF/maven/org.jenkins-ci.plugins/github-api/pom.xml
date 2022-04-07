@@ -56,7 +56,7 @@
     <dependency>
       <groupId>org.kohsuke</groupId>
       <artifactId>github-api</artifactId>
-      <version>1.133</version>
+      <version>1.303</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
