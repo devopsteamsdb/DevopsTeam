@@ -18,7 +18,7 @@
     <blueocean.version>1.24.4</blueocean.version>
     <scm-api.version>2.6.4</scm-api.version>
     <git.version>4.5.2</git.version>
-    <asm.version>9.0</asm.version>
+    <asm.version>9.2</asm.version>
   </properties>
 
   <name>Display URL for Blue Ocean</name>
