@@ -1,5 +1,0 @@
-<?xml version='1.1' encoding='UTF-8'?>
-<jenkins.model.JenkinsLocationConfiguration>
-  <adminAddress>address not configured yet &lt;nobody@nowhere&gt;</adminAddress>
-  <jenkinsUrl>http://192.168.201.131:8081/</jenkinsUrl>
-</jenkins.model.JenkinsLocationConfiguration>
